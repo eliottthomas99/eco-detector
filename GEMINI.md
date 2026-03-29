@@ -6,11 +6,12 @@ Building a production-grade AI Engineering system for detecting environmental po
 ## Collaboration Protocol: "Expert Co-Pilot"
 To ensure the user (PhD Researcher) leads the architectural and technical direction:
 1. **Consultation First:** For every major design choice (dataset, model architecture, loss function, augmentation strategy, etc.), I must present 2-3 options with trade-offs.
-2. **User Decision:** Implementation only begins after the user has selected or provided a specific direction.
-3. **No Hidden Logic:** I will explain the rationale behind implementation details, focusing on modularity and engineering best practices.
+2. **Never Assume:** Do not autocomplete decisions or fill in missing information without explicit user supervision. If in doubt, ask for clarification first.
+3. **User Decision:** Implementation only begins after the user has selected or provided a specific direction.
+4. **No Hidden Logic:** I will explain the rationale behind implementation details, focusing on modularity and engineering best practices.
 
 ## Technical Standards
-- **Language:** Python 3.10+ with mandatory **Type Hints**.
+- **Language:** Python 3.12+ with mandatory **Type Hints**.
 - **Documentation:** Google-style docstrings for all functions and classes.
 - **Structure:** Modular `src/` layout.
 - **Data Versioning:** **DVC** (Data Version Control) for reproducibility and lineage.
