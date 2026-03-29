@@ -7,6 +7,7 @@ requires-python = ">=3.12"
 dependencies = [
     "albumentations>=2.0.8",
     "dvc>=3.67.0",
+    "fiftyone>=1.13.5",
     "hydra-core>=1.3.2",
     "hydra-optuna-sweeper>=1.2.0",
     "opencv-python-headless>=4.13.0.92",
