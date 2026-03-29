@@ -22,6 +22,7 @@ To ensure the user (PhD Researcher) leads the architectural and technical direct
 - **Optimization Target:** Efficient CPU inference via OpenVINO.
 
 ## Core Mandates
+- **Avoid Overengineering:** Prioritize simplicity and results. Use existing scripts and tools as-is whenever possible; do not build complex wrappers or abstractions unless absolutely necessary.
 - **Reproducibility:** Use DVC for data versioning and explicit dependency management.
 - **Adaptability:** Demonstrate the transition from document-based AI to environmental computer vision.
 - **Low-Data Expertise:** Highlight custom loss functions, pseudo-labeling, and active learning strategies.
